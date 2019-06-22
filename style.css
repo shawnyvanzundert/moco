@@ -1,0 +1,1739 @@
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: "Lato";
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.5em;
+	line-height: 1.2em;
+	color: #FFF;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.8em;
+	line-height: 1.3em;
+	color: #FFF;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 1.4em;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #FFF;
+}
+
+.red {
+	background-color: #F63A2B;
+}
+
+.blue {
+	background-color: #0B28F7;
+}
+
+.yellow {
+	background-color: #F7B600;
+}
+
+.green {
+	background-color: #2FB177;
+}
+
+.gray {
+	background-color: #F3F3F3;
+}
+
+.white {
+	color: #FFF;
+}
+
+.whiteBack {
+	background-color: #FFF;
+}
+
+.blackText {
+	color: #000;
+}
+
+#logo {
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	display: block;
+	position: absolute;
+}
+
+.side-logo {
+	height: 35px;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 4;
+}
+
+.box {
+	width: 100%;
+	height: 200px;
+	margin-top: 70px;
+	position: fixed;
+	z-index: 4;
+}
+
+.boxIcon {
+	width: 130px;
+	height: 195px;
+	position: relative;
+	margin-right: 70px;
+	float: right;
+}
+
+.icon {
+	width: 130px;
+	position: relative;
+	display: inline-block;
+}
+
+.icon a {
+	display: block;
+	margin-left: 90px;
+}
+
+.icon span {
+	position: absolute;
+	text-align: right;
+	opacity: 0;
+	font-weight: bold;
+	transition: 0.5s opacity;
+	margin-top: -48px;
+}
+
+.icon:hover > span {
+	opacity: 1;
+}
+
+#logoBig {
+	height: 290px;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -60%);
+	position: absolute;
+}
+
+header {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+#wrapInl {
+	width: 100%;
+	height: 940px;
+	margin-bottom: 160px;
+}
+
+.blockBig {
+	width: 80%;
+	height: 545px;
+	z-index: 0;
+	float: left;
+	position: absolute;
+}
+
+.blockBigText {
+	width: 70%;
+	max-width: 920px;
+	margin-left: 105px;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.blockMiddle {
+	width: 70%;
+	height: 480px;
+	z-index: 1;
+	float: left;
+	margin-top: 440px;
+	position: absolute;
+	background-color: #F3F3F3;
+}
+
+.blockMiddleText {
+	width: 70%;
+	height: 360px;
+	max-width: 750px;
+	margin-left: 105px;
+	margin-top: 90px;
+	position: absolute;
+}
+
+.blockMiddleText p {
+	margin-top: 30px;
+}
+
+.tumbWrap {
+	width: 1160px;
+	height: 1830px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.tumbText {
+	width: 50%;
+	max-width: 400px;
+	margin-left: 45px;
+	margin-top: 200px;
+	position: absolute;
+}
+
+.tumbText p {
+	margin-top: 40px;
+}
+
+.tumbTextBlock {
+	width: 1160px;
+	height: 495px;
+	background-color: #F3F3F3;
+	margin-left: -45px;
+	z-index: 1;
+	margin-bottom: 90px;
+}
+
+.aniTumbTextBlock {
+	height: 60px;
+	margin-left: 45px;
+	margin-top: 80px;
+	position: absolute;
+}
+
+.tumbVlak {
+	width: 470px;
+	height: 335px;
+	position: absolute;
+}
+
+.tumbVlak1 {
+	margin-left: 770px;
+	margin-top: 125px;
+	z-index: -1;
+}
+
+.tumbVlak2 {
+	margin-left: 730px;
+	margin-top: 80px;
+	z-index: 1;
+}
+
+.tumbVlak3 {
+	margin-left: 770px;
+	margin-top: 125px; 
+	z-index: -1;
+}
+
+#fotoLaptop {
+	width: 380px;
+	position: absolute;
+	z-index: 3;
+	margin-top: -60px;
+	margin-left: 630px;
+	transform: rotate(6deg);
+}
+
+#fotoCamera {
+	width: 380px;
+	position: absolute;
+	z-index: 3;
+	margin-top: 170px;
+	margin-left: 800px;
+	transform: rotate(10deg);
+}
+
+#fotoTelefoon {
+	width: 330px;
+	position: absolute;
+	z-index: 3;
+	margin-top: 30px;
+	margin-left: 650px;
+}
+
+.fotoHand1 {
+	width: 300px;
+	position: absolute;
+	z-index: 3;
+	margin-top: 195px;
+	margin-left: 860px;
+}
+
+.fotoHand2 {
+	width: 260px;
+	position: absolute;
+	z-index: 3;
+	margin-top: 0px;
+	margin-left: 680px;
+}
+
+.handVideo {
+	width: 260px;
+	position: absolute;
+	z-index: 3;
+}
+
+.onder {
+	margin-top: 235px;
+	margin-left: 600px;
+}
+
+.boven {
+	margin-top: 0px;
+	margin-left: 900px;
+}
+
+#wrapUitleg {
+	width: 100%;
+	height: 920px;
+	margin-bottom: 160px;
+}
+
+#wrapUitleg .blockBigText {
+	width: 90%;
+	max-width: 900px;
+	color: white;
+}
+
+.blockBigText .deelText p {
+	width: 200px;
+	float: left;
+	margin-right: 10%;
+	margin-top: 50px;
+}
+
+.wrapContPhoto {
+	width: 100%;
+	height: 590px;
+	z-index: -3;
+	position: relative;
+	margin-bottom: 160px;
+}
+
+.wrapContPhoto .tumbVlak {
+	float: left;
+	z-index: -1;
+	position: absolute;
+}
+
+.wrapPhotos {
+	width: 980px;
+	height: 470px;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 120px;
+	position: absolute;
+}
+
+.photoBig {
+	width: 470px;
+	height: 470px;
+	float: left;
+}
+
+.photoSmall {
+	width: 215px;
+	height: 215px;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+footer {
+	height: 540px;
+	width: 100%;
+	margin-bottom: 0px;
+	position: absolute;
+	z-index: -1;
+}
+
+.footerText {
+	width: 90%;
+	height: 540px;
+	margin: 0 auto;
+}
+
+.footerText h3 {
+	line-height: 1.4em;
+	color: white;
+}
+
+.footerText1 {
+	float: left;
+	width: 400px;
+	height: 540px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+.info {
+	margin-top: 60px;
+}
+
+.zoekOns {
+	margin-top: 30px;
+}
+
+.footerText2 {
+	float: left;
+	width: 400px;
+	height: 540px;
+	position: relative;
+	margin-bottom: 0px;
+	margin-left: 20%;
+}
+
+.socialMedia {
+	margin-top: 75px;
+}
+
+.sizeSocial {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-right: 50px;
+}
+
+.werkMetOns {
+	margin-top: 170px;
+}
+
+.hierna {
+	margin-top: 40px;
+}
+
+.privacy {
+	margin-top: 40px;
+}
+
+.copyRight {
+	margin-top: 20px;
+}
+
+.logoSmall {
+	height: 60px;
+	margin-top: 70px;
+	position: relative;
+}
+
+
+
+#headerImgHand {
+	height: 450px;
+	margin-left: 70%;
+	margin-top: 20%;
+	position: absolute;
+	z-index: 1;
+}
+
+#headerImgArtiekel {
+	height: 600px;
+	left: 42%;
+	margin-top: -6%;
+	position: absolute;
+	z-index: 1;
+	transform: rotate(6deg);
+}
+
+.titelPaginaArtiekel {
+	width: 50%;
+	height: 100vh;
+	position: absolute;
+	background-color: white;
+}
+
+.titelPaginaArtiekel h1 {
+	margin-top: 55%;
+	margin-right: 50px;
+	float: right;
+	color: black;
+}
+
+#wrapArtiekel {
+	width: 100%;
+	height: 545px;
+}
+
+#wrapArtiekel .blockBig {
+	background-color: #0B28F7;
+	z-index: -1;
+}
+
+.videoWrap {
+	width: 1155px;
+	height: 650px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: -100px;
+	z-index: 1;
+	margin-bottom: 160px;
+}
+
+.tumbVideo {
+	width: 610px;
+	height: 345px;
+	background-color: black;
+	margin-left: 590px;
+	margin-top: 75px;
+	position: absolute;
+}
+
+#LesmateriaalWrap {
+	height: 500px;
+	width: 100%;
+	margin-bottom: 160px;
+}
+
+#LesmateriaalWrap .blockMiddle {
+	margin-top: 0px;
+}
+
+#wrapLesBlock {
+	width: 20%;
+	height: 500px;
+	margin-left: 90%;
+	margin-top: 90px;
+}
+
+.miniBlock {
+	width: 240px;
+	height: 65px;
+	margin-bottom: 20px;
+}
+
+.miniBlock h3 {
+	color: white;
+	margin-left: 30px;
+	line-height: 65px;
+}
+
+
+
+.wrapHeader {
+	width: 90%;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.titelPagina {
+	width: 50%;
+	height: 100vh;
+	position: relative;
+	float: left;
+}
+
+.titelPagina h1 {
+	margin-top: 70%;
+}
+
+.wrapInlOvOn {
+	width: 100%;
+	height: 565px;
+}
+
+.wrapInlOvOn .blockMiddle {
+	margin-top: 0px;
+	z-index: -1;
+}
+
+.wrapInlOvOn .blockMiddleText {
+	margin-top: 90px;
+	width: 75%;
+}
+
+.wrapInlOvOn .blockMiddle h2 {
+	color: black;
+}
+
+.logoBlockBox {
+	width: 50%;
+	height: 100vh;
+	position: relative;
+	float: right;
+}
+
+#logoBlock {
+	height: 415px;
+	float: left;
+	margin-top: 25%;
+	position: relative;
+}
+
+.wrapInfo {
+	width: 100%;
+	height: 485px;
+	margin-bottom: 205px;
+}
+
+#firstWrap {
+	margin-top: -200px;
+}
+
+.wrapInfo .blockBigText {
+	margin-top: 160px;
+}
+
+.wrapInfo .blockBigText {
+	margin-top: 130px;
+}
+
+.wrapInfo .blockBigText h3 {
+	margin-bottom: 30px;
+}
+
+.wrapInfo .blockBig {
+	z-index: -1;
+}
+
+.wrapInfo .tumbVlak2 {
+	margin-top: 100px;
+	margin-left: 75%;
+}
+
+.bigPhoto {
+	width: 1155px;
+	height: 650px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: -250px;
+	z-index: 2;
+	margin-bottom: 160px;
+}
+
+#wrapTeam {
+	width: 770px;
+	height: 215px;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 170px;
+	position: absolute;
+	margin-left: -20px;
+}
+
+.wrapWholeTeam {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	margin-bottom: 160px;
+}
+
+.wrapWholeTeam .tumbVlak h3 {
+	color: white;
+	margin-left: 150px;
+	margin-top: 105px;
+}
+
+
+
+#wrapContact {
+	width: 85%;
+	height: 1050px;
+	float: left;
+	margin-top: -200px;
+	margin-bottom: 160px;
+}
+
+#wrapContText {
+	margin-top: 130px;
+	height: 805px;
+	width: 50%;
+	margin-bottom: 80px;
+	max-width: 600px;
+}
+
+#wrapContText .miniBlock {
+	margin-left: 150px;
+	width: 100%;
+}
+
+#wrapContText h3 {
+	margin-left: 150px;
+	color: white;
+}
+
+#bigBlock {
+	height: 390px;
+}
+
+#buttonVerzend {
+	margin-left: 150px;
+}
+
+#logoBlockCo {
+	height: 208px;
+	float: left;
+	margin-top: 56%;
+	margin-right: 15%;
+	position: relative;
+}
+
+.wrapHeader #logo {
+	margin-left: 0;
+}
+
+
+
+/*miniWeb*/
+
+@media screen and (max-width: 1350px) {
+	body {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+		
+	.side-logo {
+		height: 30px;
+		margin-bottom: 10px;
+		position: relative;
+		z-index: 4;
+	}
+
+	.box {
+		width: 100%;
+		height: 170px;
+		margin-top: 50px;
+		position: fixed;
+		z-index: 4;
+	}
+
+	.boxIcon {
+		width: 110px;
+		height: 170px;
+		position: relative;
+		margin-right: 50px;
+		float: right;
+	}
+
+	.icon {
+		width: 130px;
+		position: relative;
+		display: inline-block;
+	}
+
+	.icon a {
+		display: block;
+		margin-left: 76px;
+	}
+
+	.icon span {
+		position: absolute;
+		text-align: right;
+		opacity: 0;
+		font-weight: bold;
+		transition: 0.5s opacity;
+		margin-top: -48px;
+	}
+
+	.blockBig {
+		height: 505px;
+	}
+
+	.blockBigText {
+		width: 70%;
+		max-width: 660px;
+	}
+
+	.blockMiddle {
+		width: 70%;
+		height: 380px;
+		margin-top: 420px;
+	}
+
+	.blockMiddleText {
+		width: 70%;
+		max-width: 550px;
+		margin-top: 70px;
+	}
+
+	#wrapInl {
+		width: 100%;
+		height: 780px;
+		margin-bottom: 160px;
+	}
+
+	.tumbWrap {
+		width: 900px;
+		height: 1680px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.tumbText {
+		width: 50%;
+		max-width: 340px;
+		margin-left: 45px;
+		margin-top: 160px;
+		position: absolute;
+	}
+
+	.tumbTextBlock {
+		width: 900px;
+		height: 445px;
+		background-color: #F3F3F3;
+		margin-left: -45px;
+		z-index: 1;
+		margin-bottom: 90px;
+	}
+
+	.aniTumbTextBlock {
+		height: 40px;
+		margin-left: 45px;
+		margin-top: 80px;
+		position: absolute;
+	}
+
+	.tumbVlak {
+		width: 395px;
+		height: 280px;
+		position: absolute;
+	}
+
+	.tumbVlak1 {
+		margin-left: 590px;
+		margin-top: 125px;
+		z-index: -1;
+	}
+
+	.tumbVlak2 {
+		margin-left: 550px;
+		margin-top: 80px;
+		z-index: 1;
+	}
+
+	.tumbVlak3 {
+		width: 500px;
+		height: 280px;
+		position: absolute;
+		margin-left: 480px;
+		margin-top: 120px;
+		z-index: -1;
+	}
+
+	#fotoLaptop {
+		width: 320px;
+		position: absolute;
+		z-index: 3;
+		margin-top: -30px;
+		margin-left: 460px;
+		transform: rotate(6deg);
+	}
+
+	#fotoCamera {
+		width: 320px;
+		position: absolute;
+		z-index: 3;
+		margin-top: 150px;
+		margin-left: 590px;
+		transform: rotte(10deg);
+	}
+
+	#fotoTelefoon {
+		width: 270px;
+		position: absolute;
+		z-index: 3;
+		margin-top: 30px;
+		margin-left: 470px;
+	}
+
+	.fotoHand1 {
+		width: 240px;
+		position: absolute;
+		z-index: 3;
+		margin-top: 205px;
+		margin-left: 650px;
+	}
+
+	.fotoHand2 {
+		width: 200px;
+		position: absolute;
+		z-index: 3;
+		margin-top: 0px;
+		margin-left: 500px;
+	}
+
+	.handVideo {
+		width: 220px;
+		position: absolute;
+		z-index: 3;
+	}
+
+	.onder {
+		margin-top: 225px;
+		margin-left: 440px;
+	}
+
+	.boven {
+		margin-top: 0px;
+		margin-left: 670px;
+	}
+
+	#wrapUitleg {
+		width: 100%;
+		height: 800px;
+		margin-bottom: 160px;
+	}
+	
+	#wrapUitleg .blockBigText {
+		width: 90%;
+		max-width: 800px;
+		color: white;
+	}
+	
+	.blockBigText .deelText p {
+		width: 200px;
+		float: left;
+		margin-right: 4%;
+		margin-top: 50px;
+	}
+
+	footer {
+		height: 540px;
+		width: 100%;
+		margin-bottom: 0px;
+		position: absolute;
+		z-index: -1;
+	}
+
+	.footerText {
+		width: 90%;
+		height: 540px;
+		margin: 0 auto;
+	}
+
+	.footerText h3 {
+		line-height: 1.4em;
+		color: white;
+	}
+
+	.footerText1 {
+		float: left;
+		width: 300px;
+		height: 540px;
+		margin-bottom: 0px;
+		position: relative;
+	}
+
+	.info {
+		margin-top: 60px;
+	}
+
+	.zoekOns {
+		margin-top: 40px;
+	}
+
+	.footerText2 {
+		float: left;
+		width: 400px;
+		height: 540px;
+		position: relative;
+		margin-bottom: 0px;
+		margin-left: 20%;
+	}
+
+	.socialMedia {
+		margin-top: 75px;
+	}
+
+	.sizeSocial {
+		height: 50px;
+		width: 50px;
+		float: left;
+		margin-right: 50px;
+	}
+
+	.werkMetOns {
+		margin-top: 170px;
+	}
+
+	.hierna {
+		margin-top: 40px;
+	}
+
+	.privacy {
+		margin-top: 40px;
+	}
+
+	.copyRight {
+		margin-top: 20px;
+	}
+
+	.logoSmall {
+		height: 60px;
+		margin-top: 70px;
+		position: relative;
+	}
+
+	#wrapArtiekel {
+		width: 100%;
+		height: 505px;
+	}
+	
+	#wrapArtiekel .blockBig {
+		background-color: #0B28F7;
+		z-index: -1;
+	}
+
+	.videoWrap {
+		margin-top: -100px;
+		width: 890px;
+		height: 500Px;
+	}
+
+	.tumbVideo {
+		width: 500px;
+		height: 280px;
+		background-color: black;
+		margin-left: 440px;
+		margin-top: 80px;
+		position: absolute;
+	}
+
+	#LesmateriaalWrap {
+		height: 380px;
+		width: 100%;
+		margin-bottom: 160px;
+	}
+
+	#LesmateriaalWrap .blockMiddle {
+		width: 70%;
+		margin-top: 0px;
+	}
+
+	#LesmateriaalWrap .blockMiddle .blockMiddleText{
+		width: 70%;
+		max-width: 600px;
+	}
+
+	#wrapLesBlock {
+		width: 200px;
+		height: 500px;
+		margin-left: 88%;
+		margin-top: 50px;
+	}
+
+	.miniBlock {
+		width: 200px;
+		height: 55px;
+		margin-bottom: 20px;
+	}
+
+	.miniBlock h3 {
+		color: white;
+		margin-left: 30px;
+		line-height: 55px;
+	}
+
+
+		
+	.wrapInlOvOn {
+		width: 100%;
+		height: 525px;
+	}
+
+	.wrapInlOvOn .blockMiddle {
+		margin-top: 0px;
+		z-index: -1;
+	}
+
+	.wrapInlOvOn .blockMiddleText {
+		margin-top: 80px;
+		max-width: 600px;
+	}
+
+	.wrapInlOvOn .blockMiddle h2 {
+		color: black;
+	}
+
+	.logoBlockBox {
+		width: 50%;
+		height: 100vh;
+		position: relative;
+		float: right;
+	}
+
+	#logoBlock {
+		height: 415px;
+		float: left;
+		margin-top: 25%;
+		position: relative;
+	}
+
+	.wrapInfo {
+		width: 100%;
+		height: 505px;
+		margin-bottom: 160px;
+	}
+
+	#firstWrap {
+		margin-top: -200px;
+	}
+
+	.wrapInfo .blockBigText {
+		margin-top: 115px;
+		width: 50%;
+	}
+
+	.wrapInfo .blockBigText h3 {
+		margin-bottom: 20px;
+	}
+
+	.wrapInfo .blockBig {
+		z-index: -1;
+	}
+
+	.wrapInfo .tumbVlak2 {
+		margin-top: 110px;
+		margin-left: 70%;
+	}
+
+	.bigPhoto {
+		width: 990px;
+		height: 560Px;
+		background-color: black;
+		margin: 0 auto;
+		margin-top: -250px;
+		z-index: 2;
+		margin-bottom: 160px;
+	}
+
+	#wrapTeam {
+		width: 770px;
+		height: 215px;
+		left: 50%;
+		transform: translate(-50%);
+		margin-top: 170px;
+		position: absolute;
+	}
+
+	.wrapWholeTeam {
+		width: 100%;
+		height: 400px;
+		position: relative;
+		margin-bottom: 160px;
+	}
+
+	.wrapWholeTeam .tumbVlak h3 {
+		color: white;
+		margin-left: 150px;
+		margin-top: 105px;
+	}
+
+
+
+	#wrapContact {
+		width: 85%;
+		height: 900px;
+		float: left;
+		margin-top: -200px;
+		margin-bottom: 160px;
+	}
+
+	#wrapContText {
+		margin-top: 130px;
+		height: 660px;
+		width: 50%;
+		max-width: 500px;
+	}
+
+	#wrapContText .miniBlock {
+		margin-left: 150px;
+		width: 100%;
+	}
+
+	#wrapContText h3 {
+		margin-left: 150px;
+		color: white;
+	}
+
+	#bigBlock {
+		height: 290px;
+	}
+
+	#buttonVerzend {
+		margin-left: 150px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+/*tablets*/
+
+@media screen and (max-width: 1050px) {
+	body {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+			
+	.side-logo {
+		height: 30px;
+		margin-bottom: 10px;
+		position: relative;
+		z-index: 4;
+	}
+
+	.box {
+		width: 100%;
+		height: 170px;
+		margin-top: 50px;
+		position: fixed;
+		z-index: 4;
+	}
+
+	.boxIcon {
+		width: 110px;
+		height: 170px;
+		position: relative;
+		margin-right: 50px;
+		float: right;
+	}
+
+	.icon {
+		width: 130px;
+		position: relative;
+		display: inline-block;
+	}
+
+	.icon a {
+		display: block;
+		margin-left: 76px;
+	}
+
+	.icon span {
+		position: absolute;
+		text-align: right;
+		opacity: 0;
+		font-weight: bold;
+		transition: 0.5s opacity;
+		margin-top: -48px;
+	}
+	
+	.blockBig {
+		height: 505px;
+		width: 100%;
+	}
+
+	.blockBigText {
+		width: 70%;
+		max-width: 600px;
+		margin-left: 45px;
+	}
+
+	.blockMiddle {
+		width: 100%;
+		height: 380px;
+		margin-top: 420px;
+	}
+
+	.blockMiddleText {
+		width: 70%;
+		margin-left: 45px;
+		max-width: 550px;
+		margin-top: 70px;
+	}
+
+	#wrapInl {
+		width: 100%;
+		height: 780px;
+		margin-bottom: 160px;
+	}
+
+	.tumbWrap {
+		width: 100%;
+		height: 2630px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.tumbText {
+		width: 50%;
+		max-width: 340px;
+		margin-left: 45px;
+		margin-top: 140px;
+		position: absolute;
+	}
+
+	.tumbTextBlock {
+		width: 100%;
+		height: 445px;
+		background-color: #F3F3F3;
+		z-index: 1;
+		margin-bottom: 400px;
+		margin-left: 0px;
+	}
+
+	.aniTumbTextBlock {
+		height: 40px;
+		margin-left: 45px;
+		margin-top: 60px;
+		position: absolute;
+	}
+
+	.tumbVlak {
+		width: 540px;
+		height: 382px;
+	}
+
+	.tumbVlak1 {
+		margin-left: 15%;
+		margin-top: 400px;
+		z-index: -1;
+	}
+
+	.tumbVlak2 {
+		margin-left: 10%;
+		margin-top: 360px;
+		z-index: 1;
+	}
+
+	.tumbVlak3 {
+		width: 540px;
+		height: 300px;
+		position: absolute;
+		margin-left: 16%;
+		margin-top: 445px;
+		z-index: -1;
+	}
+
+	#fotoLaptop {
+		width: 320px;
+		position: absolute;
+		z-index: 3;
+		margin-top: -30px;
+		margin-left: 460px;
+		transform: rotate(6deg);
+		display: none;
+	}
+
+	#fotoCamera {
+		width: 320px;
+		position: absolute;
+		z-index: 3;
+		margin-top: 150px;
+		margin-left: 590px;
+		transform: rotte(10deg);
+		display: none;
+	}
+
+	#fotoTelefoon {
+		width: 270px;
+		position: absolute;
+		z-index: 3;
+		margin-top: 30px;
+		margin-left: 470px;
+		display: none;
+	}
+
+	.fotoHand1 {
+		width: 240px;
+		position: absolute;
+		z-index: 3;
+		margin-top: 205px;
+		margin-left: 650px;
+		display: none;
+	}
+
+	.fotoHand2 {
+		width: 200px;
+		position: absolute;
+		z-index: 3;
+		margin-top: 0px;
+		margin-left: 500px;
+		display: none;
+	}
+
+	.handVideo {
+		width: 220px;
+		position: absolute;
+		z-index: 3;
+		display: none;
+	}
+
+	.onder {
+		margin-top: 225px;
+		margin-left: 440px;
+	}
+
+	.boven {
+		margin-top: 0px;
+		margin-left: 670px;
+	}
+
+	#wrapUitleg {
+		width: 100%;
+		height: 800px;
+		margin-bottom: 160px;
+	}
+	
+	#wrapUitleg .blockBigText {
+		width: 90%;
+	}
+	
+	.blockBigText .deelText p {
+		width: 180px;
+		float: left;
+		margin-right: 4%;
+		margin-top: 50px;
+	}
+
+	.wrapContPhoto {
+		width: 100%;
+		height: 1100px;
+		z-index: -3;
+		position: relative;
+		margin-bottom: 160px;
+	}
+	
+	.wrapContPhoto .tumbVlak {
+		float: left;
+		z-index: -1;
+		position: absolute;
+		width: 360px;
+		height: 255px;
+	}
+	
+	.wrapPhotos {
+		width: 520px;
+		height: 960px;
+		left: 50%;
+		transform: translate(-50%);
+		margin-top: 120px;
+		position: absolute;
+		margin-left: -14px;
+	}
+	
+	.photoBig {
+		width: 470px;
+		height: 470px;
+		float: left;
+		margin-left: 40px;
+	}
+	
+	.photoSmall {
+		width: 215px;
+		height: 215px;
+		float: left;
+		margin-left: 40px;
+		margin-bottom: 0px;
+		margin-top: 40px;
+	}
+
+	footer {
+		height: 820px;
+		width: 100%;
+		margin-bottom: 0px;
+		position: absolute;
+		z-index: -1;
+	}
+
+	.footerText {
+		width: 90%;
+		height: 530px;
+		margin: 0 auto;
+	}
+
+	.footerText h3 {
+		line-height: 1.4em;
+		color: white;
+	}
+
+	.footerText1 {
+		float: left;
+		width: 300px;
+		height: 390px;
+		margin-bottom: 0px;
+		position: relative;
+	}
+
+	.info {
+		margin-top: 50px;
+	}
+
+	.zoekOns {
+		margin-top: 30px;
+	}
+
+	.footerText2 {
+		float: left;
+		width: 500px;
+		height: 420px;
+		position: absolute;
+		margin-left: 0px;
+		margin-top: 400px;
+	}
+
+	.socialMedia {
+		margin-top: 15px;
+	}
+
+	.sizeSocial {
+		height: 40px;
+		width: 40px;
+		float: left;
+		margin-right: 40px;
+	}
+
+	.werkMetOns {
+		margin-top: 100px;
+	}
+
+	.hierna {
+		margin-top: 30px;
+	}
+
+	.privacy {
+		margin-top: 30px;
+	}
+
+	.copyRight {
+		margin-top: 10px;
+	}
+
+	.logoSmall {
+		height: 50px;
+		margin-top: 50px;
+		position: relative;
+	}
+
+	#wrapArtiekel {
+		width: 100%;
+		height: 505px;
+	}
+	
+	#wrapArtiekel .blockBig {
+		background-color: #0B28F7;
+		z-index: -1;
+	}
+
+	.videoWrap {
+		margin-top: -100px;
+		width: 650px;
+		height: 370px;
+	}
+
+	.tumbVideo {
+		width: 540px;
+		height: 300px;
+		background-color: black;
+		margin-left: 10%;
+		margin-top: 400px;
+		position: absolute;
+
+	}
+
+	#LesmateriaalWrap {
+		height: 480px;
+		width: 100%;
+		margin-bottom: 160px;
+		margin-top: -40px;
+	}
+
+	#LesmateriaalWrap .blockMiddle {
+		width: 70%;
+		height: 480px;
+		margin-top: 0px;
+	}
+
+	#LesmateriaalWrap .blockMiddle .blockMiddleText{
+		width: 70%;
+		max-width: 600px;
+	}
+
+	#wrapLesBlock {
+		width: 200px;
+		height: 500px;
+		margin-left: 88%;
+		margin-top: 100px;
+	}
+
+	.miniBlock {
+		width: 200px;
+		height: 55px;
+		margin-bottom: 20px;
+	}
+
+	.miniBlock h3 {
+		color: white;
+		margin-left: 30px;
+		line-height: 55px;
+	}
+
+
+		
+	.wrapInlOvOn {
+		width: 100%;
+		height: 525px;
+	}
+
+	.wrapInlOvOn .blockMiddle {
+		margin-top: 0px;
+		z-index: -1;
+	}
+
+	.wrapInlOvOn .blockMiddleText {
+		margin-top: 80px;
+		max-width: 600px;
+	}
+
+	.wrapInlOvOn .blockMiddle h2 {
+		color: black;
+	}
+
+	.logoBlockBox {
+		width: 50%;
+		height: 100vh;
+		position: relative;
+		float: right;
+	}
+
+	#logoBlock {
+		height: 415px;
+		float: left;
+		margin-top: 25%;
+		position: relative;
+	}
+
+	.wrapInfo {
+		width: 100%;
+		height: 505px;
+		margin-bottom: 360px;
+	}
+
+	#firstWrap {
+		margin-top: -200px;
+	}
+
+	.wrapInfo .blockBigText {
+		margin-top: 75px;
+		width: 50%;
+	}
+
+	.wrapInfo .blockBigText h3 {
+		margin-bottom: 20px;
+	}
+
+	.wrapInfo .blockBig {
+		z-index: -1;
+	}
+
+	.wrapInfo .tumbVlak2 {
+		margin-top: 410px;
+		margin-left: 10%;
+	}
+
+	.bigPhoto {
+		width: 650px;
+		height: 370Px;
+		background-color: black;
+		margin: 0 auto;
+		margin-top: -450px;
+		z-index: 2;
+		margin-bottom: 80px;
+	}
+
+	#wrapTeam {
+		width: 570px;
+		height: 255px;
+		left: 50%;
+		transform: translate(-50%);
+		margin-top: 170px;
+		position: absolute;
+	}
+
+	.wrapWholeTeam {
+		width: 100%;
+		height: 360px;
+		position: relative;
+		margin-bottom: 160px;
+		margin-top: 150px;
+	}
+
+	.wrapWholeTeam .tumbVlak h3 {
+		color: white;
+		margin-left: 45px;
+		margin-top: 105px;
+	}
+
+	.wrapWholeTeam .tumbVlak {
+		width: 360px;
+		height: 255px;
+	}
+
+	#wrapTeam .photoSmall {
+		height: 150px;
+		width: 150px;
+	}
+
+	#wrapContact {
+		width: 100%;
+		height: 900px;
+		float: left;
+		margin-top: -200px;
+		margin-bottom: 160px;
+	}
+
+	#wrapContText {
+		margin-top: 130px;
+		height: 660px;
+		width: 60%;
+		max-width: 500px;
+	}
+
+	#wrapContText .miniBlock {
+		margin-left: 45px;
+		width: 100%;
+	}
+
+	#wrapContText h3 {
+		margin-left: 45px;
+		color: white;
+	}
+
+	#bigBlock {
+		height: 290px;
+	}
+
+	#buttonVerzend {
+		margin-left: 45px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+/*mobiles*/
+
+@media screen and (max-width: 720px) {
+	body {
+		background-color: yellow;
+		font-size: 0.8em;
+		line-height: 1.3em;
+	}
+}
